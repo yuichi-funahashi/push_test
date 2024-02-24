@@ -1,0 +1,36 @@
+
+
+*******************************************************************************
+Sat Feb 24 15:34:29 2024
+
+
+FIT:    data read from "planets.dat" using 2:3
+        format = x:z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = K*x**p
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   K             p            
+   0 2.2840105080e+04   0.00e+00  3.13e+01    1.000000e+00   1.000000e+00
+   7 5.9914442044e-03  -7.44e-04  3.13e-04    9.987951e-01   1.500076e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.00599144
+rel. change during last iteration : -7.4364e-09
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0316002
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000998574
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+K               = 0.998795         +/- 0.002074     (0.2076%)
+p               = 1.50008          +/- 0.0006295    (0.04197%)
+
+correlation matrix of the fit parameters:
+                K      p      
+K               1.000 
+p              -0.997  1.000 
